@@ -1,0 +1,20 @@
+/*общие стили для всех ссылок*/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    font-size: 24px;
+    font-family: 'Fredoka One', cursive;
+    transition: .3s ease-in-out;
+    color: #FFD201;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+a:hover {
+    border-bottom: 1px solid #FFD201;
+    border-top: 1px solid #FFD201;
+}
